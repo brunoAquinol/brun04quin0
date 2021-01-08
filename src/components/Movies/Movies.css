@@ -1,0 +1,16 @@
+
+.movie{
+    color: white;
+  }
+  
+.movieText{
+    padding-left: 5%;
+}
+
+button{
+    font-size: large;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #282c34;
+    color: white;
+}

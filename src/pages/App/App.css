@@ -25,58 +25,5 @@ h1, h2{
 
 }
 
-.movie{
-  color: white;
-}
-
-.movieText{
-  padding-left: 5%;
-}
-
-.characters{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  padding-left: 5%;
-}
-
-button{
-  font-size: large;
-  border-radius: 20px;
-  padding: 10px;
-  background-color: #282c34;
-  color: white;
-}
-
-.character{
-  width: 250px;
-  font-size: 13px;
-  color: white;
-  background-color: teal;
-  margin-right: 5%;
-  margin-bottom: 15px;
-  padding: 10px;
-  border-radius: 20px;
-  flex-basis: 18%;
-  position: relative;
-
-}
-.character h3{
-  text-align: center;
-}
-
-@media(max-width: 1333px) {
-  .character {
-    flex-basis: 30%;
-  }
-}
-
-@media(max-width: 555px) {
-  .character {
-    flex-basis: 100%;
-  }
-}
 
 
