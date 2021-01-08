@@ -21,8 +21,8 @@ function Characters({characters, index, movieIndex}){
                     Dessa forma, evita-se que ao clicar no botão de um filme, os personagens aparecerão apenas na área daquele filme 
                     clicado evitando que a informação se repita para os outros filmes.
                     */
-                    index == movieIndex ? characters.map(character =>(
-                    <div className="character">
+                    index === movieIndex ? characters.map(character =>(
+                    <div className="character" key={character.url}>
                         <h3>{character.name}</h3>
                         <p><strong>Altura:</strong> {character.height} cm</p>
                         <p><strong>Massa:</strong> {character.mass} kg</p>
