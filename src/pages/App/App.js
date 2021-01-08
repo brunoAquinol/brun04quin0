@@ -124,7 +124,7 @@ function App() {
                 <button onClick={() => getCharacters(film.characters, index)}>MOSTRAR PERSONAGENS</button>
                 {null}
               </div>
-              <div>
+            <div>
                 { 
                   <div className="characters">
                       {
